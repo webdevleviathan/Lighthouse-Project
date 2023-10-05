@@ -133,12 +133,14 @@ Luna 1: Fundamente HTML: 21 DE ZILE (8 ORE)
 Creează o listă de învățare pentru HTML, cuprinzând tag-uri, structură de bază a paginilor și formulare.
 Folosește ChatGPT pentru întrebări și clarificări.
 Citește și studiază cartea "HTML and CSS: Design and Build Websites" de Jon Duckett (format fizic sau PDF).
+
 Luna 2: Fundamente CSS
 
 Explorează site-uri precum MDN Web Docs, W3WCHOOLS, WEB.DEV și CSS-Tricks pentru resurse.
 Creează o listă de învățare pentru CSS, includând selectoare, stiluri, și responsive design.
 Continuă să consulți ChatGPT pentru ajutor și clarificări.
 Lectură suplimentară: "CSS Secrets" de Lea Verou (format fizic sau PDF).
+
 Luna 3: JavaScript de bază
 
 Începe cu tutoriale JavaScript de bază de pe FREECODECAMP, Codecademy sau MDN.
@@ -176,4 +178,4 @@ Pentru întrebări și răspunsuri:
 
 Utilizează ChatGPT pentru a obține clarificări în engleză sau română.
 Înaintează întrebările în ambele limbi pentru o înțelegere mai profundă.
-Acest plan vizează dezvoltarea abilităților de web development într-un ritm constant și corespunzător. Adaptă-l pe măsură ce avansezi și păstrează un nivel înalt de disciplină și dedicare în timpul procesului de învățare și dezvoltare personală. 
+Acest plan vizează dezvoltarea abilităților de web development într-un ritm constant și corespunzător. Adapteaza pe măsură ce avansezi și păstrează un nivel înalt de disciplină și dedicare în timpul procesului de învățare și dezvoltare personală. 
