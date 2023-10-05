@@ -1,4 +1,5 @@
 # Lighthouse-Project
+
 Project Lighthouse [1-Year Personal Web Development Project - Step-by-Step Plan]
 
 Personal Development Project in Web Development - 1-Year Plan
@@ -126,29 +127,29 @@ Pasul 1: Înțelegerea Fundamentelor
 
 Durată: Primele 3 luni
 
-Luna 1: Fundamente HTML
+Luna 1: Fundamente HTML: 21 DE ZILE (8 ORE)
 
-Începe cu resurse online, cum ar fi site-ul W3Schools și tutoriale video.
+Începe cu resurse online, cum ar fi site-ul W3Schools, WEB.DEV și tutoriale video.
 Creează o listă de învățare pentru HTML, cuprinzând tag-uri, structură de bază a paginilor și formulare.
 Folosește ChatGPT pentru întrebări și clarificări.
 Citește și studiază cartea "HTML and CSS: Design and Build Websites" de Jon Duckett (format fizic sau PDF).
 Luna 2: Fundamente CSS
 
-Explorează site-uri precum MDN Web Docs și CSS-Tricks pentru resurse.
+Explorează site-uri precum MDN Web Docs, W3WCHOOLS, WEB.DEV și CSS-Tricks pentru resurse.
 Creează o listă de învățare pentru CSS, includând selectoare, stiluri, și responsive design.
 Continuă să consulți ChatGPT pentru ajutor și clarificări.
 Lectură suplimentară: "CSS Secrets" de Lea Verou (format fizic sau PDF).
 Luna 3: JavaScript de bază
 
-Începe cu tutoriale JavaScript de bază de pe Codecademy sau MDN.
-Listează concepte cheie, cum ar fi variabile, funcții și evenimente.
+Începe cu tutoriale JavaScript de bază de pe FREECODECAMP, Codecademy sau MDN.
+Listează concepte cheie, cum ar fi variabile, funcții și evenimente. *1
 Adresează întrebări către ChatGPT pentru înțelegere mai profundă.
 Studiază cartea "JavaScript & jQuery: The Missing Manual" de David Sawyer McFarland.
 Pasul 2: Crearea Portofoliului Personal
 
 Durată: Următoarele 6 luni
 
-Luna 4-9: Dezvoltarea Proiectelor Personale
+Luna 4-9: Dezvoltarea Proiectelor Personale *2
 Creează site-uri web simple și interactivitate utilizând HTML, CSS și JavaScript.
 Adaugă fiecare proiect la portofoliul tău online.
 Solicită feedback de la colegi sau comunități online precum GitHub sau Reddit.
