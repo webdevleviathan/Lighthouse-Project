@@ -1,14 +1,21 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var checkbox = document.getElementById('myCheckbox');
+    var checkboxes = document.querySelectorAll('.myCheckbox');
 
-    // Verificați dacă există o valoare salvată în localStorage pentru caseta de selectare
-    var isChecked = localStorage.getItem('checkboxState') === 'true';
+    checkboxes.forEach(function(checkbox) {
+        checkbox.addEventListener('click', function() {
+            // Verificăm dacă checkboxul este bifat
+            if (checkbox.checked) {
+                // Salvăm starea în localStorage
+                localStorage.setItem(checkbox.id, 'checked');
+            } else {
+                // Dacă nu este bifat, ștergem starea din localStorage
+                localStorage.removeItem(checkbox.id);
+            }
+        });
 
-    // Setăm starea casetei de selectare bazată pe cea salvată în localStorage
-    checkbox.checked = isChecked;
-
-    checkbox.addEventListener('click', function() {
-        // Salvați starea curentă a casetei de selectare în localStorage
-        localStorage.setItem('checkboxState', checkbox.checked);
+        // Verificăm starea din localStorage și setăm checkboxul în consecință
+        if (localStorage.getItem(checkbox.id) === 'checked') {
+            checkbox.checked = true;
+        }
     });
 });
