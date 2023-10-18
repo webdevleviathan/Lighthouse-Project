@@ -179,3 +179,14 @@ Pentru întrebări și răspunsuri:
 Utilizează ChatGPT pentru a obține clarificări în engleză sau română.
 Înaintează întrebările în ambele limbi pentru o înțelegere mai profundă.
 Acest plan vizează dezvoltarea abilităților de web development într-un ritm constant și corespunzător. Adapteaza pe măsură ce avansezi și păstrează un nivel înalt de disciplină și dedicare în timpul procesului de învățare și dezvoltare personală. 
+
+*web.dev.leviathan*
+
+
+Resources:
+
+ ---  W3schools.com
+ ---  asapfrontend.com (*crash courses)
+ ---  web.dev (html + css)
+ ---  youtube.com (tutorials)
+ ---  freecodecamp.com * (ongoing)
