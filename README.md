@@ -187,6 +187,7 @@ Resources:
 
  ---  W3schools.com
  ---  asapfrontend.com (*crash courses)
- ---  web.dev (html + css)
+ ---  web.dev (html + css) & (google developer docs)
  ---  youtube.com (tutorials)
  ---  freecodecamp.com * (ongoing)
+ --- google developer docs
