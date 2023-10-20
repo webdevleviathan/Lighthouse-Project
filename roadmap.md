@@ -1,6 +1,7 @@
 
 Roadmap in details: (brut)
 
+[NEED TO FOLOW THIS]
 
 Month 1-2: Getting Started with HTML
 
