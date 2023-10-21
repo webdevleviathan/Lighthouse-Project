@@ -114,7 +114,7 @@ Resources:
  ---  web.dev (html + css) & (google developer docs)
  ---  youtube.com (tutorials)
  ---  freecodecamp.com * (ongoing)
- ---  TT andFB
+ ---  TT and FB
 
 
 *web.dev.leviathan*
