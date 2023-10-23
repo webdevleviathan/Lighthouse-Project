@@ -1,4 +1,4 @@
-
+r
 Roadmap in details: (brut)
 
 [NEED TO FOLOW THIS]
@@ -114,7 +114,7 @@ Resources:
  ---  web.dev (html + css) & (google developer docs)
  ---  youtube.com (tutorials)
  ---  freecodecamp.com * (ongoing)
- ---  
+ ---  TT and FB
 
 
 *web.dev.leviathan*
