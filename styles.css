@@ -2,6 +2,20 @@
     box-sizing: border-box;
   }
 
+  body {
+    background-color: aliceblue;
+  }
+header {
+ text-align: center;
+}
+
+  ol {
+    border: 1px solid red;
+  }
+
+
 footer {
     text-align: center;
 }
+
+
