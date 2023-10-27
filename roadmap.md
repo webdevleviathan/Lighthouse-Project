@@ -1,5 +1,5 @@
 r
-Roadmap in details: (brut)
+Roadmap in details: OOPLA (oriented object programing learning abilities)
 
 [NEED TO FOLOW THIS]
 
