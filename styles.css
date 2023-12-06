@@ -1,19 +1,22 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+header {
+  background: linear-gradient(121deg, #87CEEB, #FFFF00);
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  text-align: center;
-  font-size: larger;
-}
+
 
 h1 {
   margin: 0;
+  color: rgb(9, 10, 10);
+  font-size: auto;
+}
+
+p {
+  margin: 0;
+  color: rgb(9, 10, 10);
+  font-size: auto;
 }
 
 body {
