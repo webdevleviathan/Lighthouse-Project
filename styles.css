@@ -40,3 +40,12 @@ footer {
   margin-top: auto; /* Push the footer to the bottom */
 }
 
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: medium;
+}
+
+.welcome {
+  color:red;
+}
+
