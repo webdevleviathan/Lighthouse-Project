@@ -78,6 +78,13 @@ h1 {
   max-height: 125px; /* Adjust the max height as needed */
 }
 
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 .footer {
 
   color: #fff;
