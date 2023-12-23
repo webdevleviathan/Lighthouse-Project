@@ -5,6 +5,7 @@
   --font-color1: #fff;
   --border-color1: #fffb00;
   --border-color2: #ff4500;
+  --hover-color1: #f39c12;
 }
 
 body {
@@ -73,14 +74,14 @@ h1 {
 
 .nav-list a {
   text-decoration: none;
-  color: #fff;
+  color: var(--font-color1);
   padding: 8px 12px;
   border-radius: 5px;
   transition: background-color 0.3s ease;
 }
 
 .nav-list a:hover {
-  background-color: #f39c12; /* Yellow color on hover */
+  background-color: var(--hover-color1); /* Yellow color on hover */
 }
 
  img {
@@ -97,7 +98,7 @@ p {
 
 .footer {
 
-  color: #fff;
+  color: var(--font-color1);
   text-align: center;
   margin-top: auto;
   position: absolute;
