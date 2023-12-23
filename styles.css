@@ -21,10 +21,13 @@ header {
   background: linear-gradient(121deg, var(--theme-color1), var(--theme-color2));
   padding: 10px;
   text-align: center;
-  color: #fff;
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
 }
 
 h1 {
