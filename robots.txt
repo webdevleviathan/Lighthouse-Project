@@ -5,6 +5,6 @@
 # to crawl them.
 
 
-User-agent: *
+User-agent:
 Disallow: /
 Allow: /public/

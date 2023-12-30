@@ -1,21 +1,21 @@
 /* Add colors here first */
 :root {
-  --theme-color1: #b05f7f;
-  --theme-color2: #fedada;
   --font-color1: #fff;
-  --border-color1: #fffb00;
-  --border-color2: #ff4500;
-  --hover-color1: #f39c12;
+  --theme-color1: hsla(336.3, 33.89%, 53.14%, 1);
+  --theme-color2: hsla(0, 94.74%, 92.55%, 1);
+  --border-color1: hsla(59.06, 100%, 50%, 1);
+  --border-color2: hsla(16.24, 100%, 50%, 1);
+  --hover-color1: hsla(36.8, 90.36%, 51.18%, 1);
 }
 
 body {
   background-image:url(https://images.unsplash.com/photo-1513735718075-2e2d37cb7cc1?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
-  margin: auto;
   background-size: cover;
   background-repeat: no-repeat; 
   background-attachment: fixed;
-  font-family: Arial, Helvetica, sans-serif;
   color: var(--font-color1);
+  font-family: Arial, Helvetica, sans-serif;
+  margin: auto;
 }
 
 .container {
