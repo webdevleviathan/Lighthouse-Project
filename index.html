@@ -22,7 +22,7 @@
         <script src="myscripts.js"></script>
     </head>
     <body>
-        <div class="container">
+        <div id="navbar">
           <header>
             <h1><a href="#">Lighthouse Endeavour</a></h1>
             <!-- TODO: check and optimize words for seo-->
@@ -43,8 +43,8 @@
     
         <main>
       <article>
-        <h2> It brings me great pleasure to share with you my devotion to helping 
-          others learn web development. This is not just a field for me; 
+        <h2 class="intro"> It brings me great pleasure to share with you my devotion in to helping 
+          others learn web development. This is not just a field for me,
           it's a passion that motivates me to share knowledge and assist others 
           in reaching their fullest potential.</h2>
       </article>
@@ -69,6 +69,14 @@
                cascading manner, where styles can be inherited, overridden,
                 or combined. CSS is essential for creating visually appealing
                  and responsive web pages.</p>
+                 <p>The only real complication here is that there are many ways to manipulate the size of these boxes, and the space between them, using padding, margin, and border. The assigned articles go into more depth on this concept, but to sum it up briefly:
+
+                  padding increases the space between the border of a box and the content of the box.
+                  margin increases the space between the borders of a box and the borders of adjacent boxes.
+                  border adds space between the margin and the padding.</p>
+
+                  <p>Div is a block-level element by default. It is commonly used as a container element to group other elements. Divs allow us to divide the page into different blocks and apply styling to those blocks.</p>
+                  <p>Span is an inline-level element by default. It can be used to group text content and inline HTML elements for styling and should only be used when no other semantic HTML element is appropriate.</p>
           </section>
           <h2>JS</h2>
           <p>
@@ -90,10 +98,33 @@
                           popularity in modern web development.
           </p>
             </section>
+            <section  id="framework">
+<h2>Framework</h2>
+<p>
+  Framework of your choice
+</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, quas! Veniam, magni. Aut rem cupiditate perferendis repudiandae, et blanditiis recusandae, inventore cumque ut accusamus qui rerum? Fugit officia iusto porro?</p>
+
+            </section>
         </main>
     <footer class="footer">
       <a href=about.html>Leviathan</a>
       <p>&copy;2023 Lighthouse Endeavour Project. All rights reserved.</p>
     </footer>
+
+    <script>
+      window.onscroll = function() {myFunction()};
+      
+      var navbar = document.getElementById("navbar");
+      var sticky = navbar.offsetTop;
+      
+      function myFunction() {
+        if (window.pageYOffset >= sticky) {
+          navbar.classList.add("sticky")
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      }
+      </script>
   </body>
 </html>
