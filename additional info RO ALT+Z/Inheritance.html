@@ -1,0 +1,67 @@
+În contextul limbajului de stiluri CSS (Cascading Style Sheets), termenul "inheritance" se referă la modul în care anumite proprietăți ale unui element HTML sunt moștenite de la părintele lor sau de la elementele aflate într-un nivel superior în arborele DOM (Document Object Model).
+
+Când un element HTML este în interiorul altui element, acesta moștenește implicit anumite proprietăți de la părintele său. Această moștenire poate afecta stilul vizual al elementului copil. De exemplu, dacă setați o culoare de text pentru un element părinte, toate elementele copil vor moșteni aceeași culoare de text, cu excepția cazului în care este specificat altfel.
+
+Un exemplu simplu ar fi:
+
+```html
+<pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .parent {
+      color: blue;
+    }
+
+    .child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    Acesta este un text al elementului părinte.
+    <div class="child">Acesta este un text al elementului copil.</div>
+  </div>
+</body>
+</html>
+</pre>
+
+```
+
+În acest exemplu, textul din elementul copil (`<div class="child">`) va moșteni culoarea albastră a textului de la părinte (`<div class="parent">`), dar va avea greutatea fontului setată la "bold".
+
+Conceptul de moștenire este important în CSS pentru a crea un stil coerent și pentru a evita repetarea inutilă a regulilor de stil. Cu toate acestea, poate fi, de asemenea, important să se știe cum să gestionați sau să anulați moștenirea în cazuri specifice. Utilizarea selecției specifice, a clasei, a id-urilor sau a altor mecanisme CSS vă permite să controlați modul în care stilurile sunt moștenite sau aplicate la elementele HTML.
+
+Sigur, să explorăm conceptul de moștenire în CSS mai detaliat. Moștenirea în CSS se referă la transmiterea proprietăților de la un element părinte către elementele sale copil. Acest proces face parte din modul în care stilurile sunt aplicate și cum sunt propagate în structura arborescentă a Document Object Model (DOM).
+
+Iată câteva aspecte cheie ale moștenirii în CSS:
+
+1. **Proprietăți moștenite:**
+   Nu toate proprietățile CSS sunt moștenite. Proprietățile care sunt moștenite sunt cele care au sens să fie aplicate și pe elementele copil. De exemplu, culoarea textului, fontul și anumite proprietăți legate de dimensiuni (cum ar fi înălțimea liniei) sunt adesea moștenite.
+
+2. **Exemplu de moștenire:**
+   În exemplul dat anterior, proprietatea `color: blue;` este aplicată elementului părinte cu clasa `.parent`. Această culoare de text este apoi moștenită de către elementul copil cu clasa `.child`. În același timp, elementul copil își definește propria proprietate `font-weight: bold;`.
+
+3. **Prioritatea moștenirii:**
+   Dacă un element copil nu specifică o anumită valoare pentru o proprietate, aceasta va moșteni valoarea de la cel mai apropiat părinte care definește acea proprietate. În caz contrar, valoarea se moștenește de la un nivel superior în ierarhia DOM.
+
+4. **Anularea moștenirii:**
+   Uneori, este posibil să doriți să anulați sau să împiedicați moștenirea pentru anumite proprietăți. Acest lucru se poate face prin specificarea unei valori diferite pentru o proprietate la nivelul elementului copil sau prin utilizarea selectorilor mai specifici.
+   ```
+   <pre></pre>
+   css
+   .child {
+     color: red; /* Anulează moștenirea culorii de la părinte */
+   }
+
+</pre>
+   ```
+
+5. **Calcularea valorilor efective:**
+   Valorile finale ale unei proprietăți pentru un anumit element sunt calculate pe baza moștenirii, valorilor implicite ale browserului și oricăror stiluri definite direct pe acel element.
+
+În esență, moștenirea în CSS este un concept util care permite dezvoltatorilor să definească reguli de stil în mod eficient și să creeze o coerență în aspectul paginilor web. Înțelegerea modului în care moștenirea funcționează vă ajută să scrieți stiluri mai eficiente și să gestionați mai bine aspectul și comportamentul paginilor web.

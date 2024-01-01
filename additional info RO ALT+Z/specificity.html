@@ -1,0 +1,39 @@
+Principala regulă a specificității în CSS este că selectorii mai specifici au prioritate mai mare decât cei mai puțin specifici. Specificitatea este o valoare numerică care indică cât de specific sau detaliat este un selector. Cu cât specificitatea este mai mare, cu atât regulile CSS asociate cu acel selector vor avea prioritate mai mare în aplicarea stilurilor.
+
+Specificitatea este adesea exprimată într-un format cu patru cifre, unde fiecare cifră reprezintă un nivel de specificitate pentru un tip de selector. Aceste patru nivele sunt:
+
+1. **Inline styles**: Specificitatea este 1-0-0-0, unde 1 este numărul de stiluri inline.
+
+2. **ID selectors**: Specificitatea este 0-1-0-0, unde 1 este numărul de ID-uri.
+
+3. **Class selectors, attribute selectors, and pseudo-classes**: Specificitatea este 0-0-1-0, unde 1 este numărul de clase, selecții de atribute sau pseudo-clase.
+
+4. **Element selectors and pseudo-elements**: Specificitatea este 0-0-0-1, unde 1 este numărul de elemente sau pseudo-elemente.
+
+În cazul unui conflict între reguli, se iau în considerare aceste patru nivele pentru a determina care regulă va fi aplicată. Cu cât o regulă are o specificitate mai mare, cu atât va avea prioritate mai mare. Este important să înțelegem acest aspect pentru a evita conflictele nedorite și pentru a scrie CSS eficient și ușor de întreținut.
+
+Desigur, să dezvoltăm mai detaliat conceptul de specificitate în CSS.
+
+Specificitatea este o modalitate de a determina ce stiluri se aplică unui element atunci când există conflicte între reguli. Ea se bazează pe tipul și numărul de selectori utilizați pentru a defini stilurile pentru un element. Iată o detaliere mai amănunțită a modului în care se calculează specificitatea:
+
+1. **Inline Styles:**
+   - Valoare: 1-0-0-0 (un singur 1 pentru stilurile inline).
+   - Exemplu: `<div style="color: red;">`
+
+2. **ID Selectors:**
+   - Valoare: 0-1-0-0 (un singur 1 pentru ID-uri).
+   - Exemplu: `#myElement`
+
+3. **Class Selectors, Attribute Selectors, Pseudo-classes:**
+   - Valoare: 0-0-1-0 (un singur 1 pentru clase, selecții de atribute sau pseudo-clase).
+   - Exemplu: `.myClass`, `[type="text"]`, `:hover`
+
+4. **Element Selectors, Pseudo-elements:**
+   - Valoare: 0-0-0-1 (un singur 1 pentru elemente sau pseudo-elemente).
+   - Exemplu: `p`, `::before`
+
+Când se întâlnesc mai mulți selectori într-o regulă CSS, se adună valorile specificității pentru a obține specificitatea totală a acelei reguli. De exemplu, o regulă cu selectorul `h2.myClass` are o specificitate de 0-0-1-1, deoarece are un selector de clasă (0-0-1-0) și un selector de element (0-0-0-1).
+
+Atunci când două reguli au aceeași specificitate, ultima regulă întâlnită în CSS este cea care primește prioritate. Aceasta se numește „regula cascadelor” și este esențială pentru a înțelege modul în care browserul aplică stilurile.
+
+În general, este recomandabil să evitați folosirea specificatorilor de specificitate mari (cum ar fi ID-urile) în favoarea claselor și selecțiilor de elemente, pentru a face stilurile mai flexibile și ușor de întreținut. De asemenea, evitați utilizarea stilurilor inline, deoarece acestea au cea mai mare specificitate și pot fi dificil de suprascris.
