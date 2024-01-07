@@ -1,17 +1,19 @@
-ver.1.0a
+ver.1.0a 2023-2024
 
 
- learn and add a nav bar - ongoing
  learn about block and inline elements ongoing
  learn and add a header
- learn CSS
+ learn CSS  *
  LEARN SVG
  pseudo classses
  articles and sections
  statick header after scroll
 branches and relationships SEO
 import fonts
-repeat about specificty
+new footer
+
+
+ON server: soap   sudo npm install specificity
 
 
 
